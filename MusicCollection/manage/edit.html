@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="editstyle.css" rel="stylesheet" type="text/css" />
+        <link href="btn.css" rel="stylesheet" type="text/css" />
+        <title>Edit Page</title>
+    </head>
+    <body style="padding: 50px; color: #4c4c4c">
+        <div id="editFrame">
+            <div id="editBody">
+                <div id="urlRow" class="editRow">
+                    <div id="urlText" class="info">
+                        <span></span>
+                    </div>
+                    <div id="urlDiv">
+                        <input type="text" id="url">
+                    </div>
+                </div>
+                <div id="hostAndNameRow" class="editRow">
+                    <div class="leftColumn">
+                        <div id="hostText" class="info">
+                            <span></span>
+                        </div>
+                        <div id="hostDiv">
+                            <input type="text" id="host" class="stdInput">
+                        </div>
+                    </div>
+                    <div class="rightColumn">
+                        <div id="nameText" class="info">
+                            <span></span>
+                        </div>
+                        <div id="nameDiv">
+                            <input type="text" id="name" class="stdInput" disabled="disabled">
+                        </div>
+                    </div>
+                </div>
+                <div id="usernameAndPasswordRow" class="editRow">
+                    <div class="leftColumn">
+                        <div id="usernameText" class="info">
+                            <span></span>
+                        </div>
+                        <div id="usernameDiv">
+                            <input type="text" id="username" class="stdInput">
+                        </div>
+                    </div>
+                    <div class="rightColumn">
+                        <div id="passwordText" class="info">
+                            <span></span>
+                        </div>
+                        <div id="passwordDiv">
+                            <input type="password" id="password" class="stdInput">
+                            <img src="../images/showpass.png" id="showpassIcon">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <span class="editButtonsSpan">
+                    <button id="save" class="nbtn bbtn btn_midi">
+                    <button id="cancel" class="nbtn gbtn btn_midi">
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="jquery-2.1.4.js"></script>
+<script src="edit.js"></script> 

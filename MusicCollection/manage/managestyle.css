@@ -1,0 +1,20 @@
+
+.absolute {
+    position: absolute;
+}
+
+.vault {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.top {
+    height: 60px;
+}
+
+.left {
+    width: 240px;
+    transition: width .2s;
+}

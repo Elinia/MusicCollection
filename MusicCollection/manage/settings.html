@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="settingsstyle.css" rel="stylesheet" type="text/css" />
+        <link href="btn.css" rel="stylesheet" type="text/css" />
+        <title>Extension Settings</title>
+    </head>
+    <body>
+        <div id="settingsFrame">
+            <div id="settingsBody">
+                <div id="settingsContent">
+                    <fieldset>
+                        <legend>
+                            <span id="generalFieldTag"></span>
+                        </legend>
+                        <div class="settingsRow">
+                            <input type="checkbox" id="autoLoginCheckbox" /><span id="autoLoginText"></span><input type="text" id="autoLoginTimeInput" /><span id="autoLoginText2"></span>
+                        </div>
+                        <div class="settingsRow">
+                            <input type="checkbox" id="contextMenusCheckbox" /><span id="contextMenusText"></span>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            <span id="appearanceFieldTag"></span>
+                        </legend>
+                        <div class="settingsRow">
+                            <span class="opacityText"></span><input type="range" id="dialogOpacityRange" min="0" max="0.4" step="0.01" /><span id="dialogOpacitySpan" class="rangeValue"></span><span id="dialogOpacityText"></span>
+                        </div>
+                        <div class="settingsRow">
+                            <span class="opacityText"></span><input type="range" id="dialogOverlayOpacityRange" min="0" max="0.8" step="0.01" /><span id="dialogOverlayOpacitySpan" class="rangeValue"></span><input type="checkbox" id="dialogOverlayCheckbox" /><span id="dialogOverlayOpacityText"></span>
+                        </div>
+                    </fieldset>
+                </div>
+                <hr>
+                <span class="settingsReturnToDefaultButtonSpan">
+                    <button id="settingsReturnToDefaultButton" class="nbtn dbtn btn_midi"></button>
+                </span>
+                <span class="settingsButtonsSpan">
+                    <button id="settingsSaveButton" class="nbtn bbtn btn_midi"></button>
+                    <button id="settingsCloseButton" class="nbtn gbtn btn_midi"></button>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="jquery-2.1.4.js"></script>
+<script src="settings.js"></script>

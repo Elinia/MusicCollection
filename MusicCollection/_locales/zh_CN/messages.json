@@ -1,0 +1,274 @@
+{
+   "change_data": {
+      "message": "检测到用户名对应的密码或网址变化！是否要更新用户信息？"
+   },
+   "new_data": {
+      "message": "这是此网站的一个新用户！是否要将此用户信息记录以便以后快速填充？"
+   },
+   "reparse": {
+      "message": "重新解析"
+   },
+   "check_host": {
+      "message": "查看域名"
+   },
+   "input_username": {
+      "message": "请输入用户名！"
+   },
+   "input_password": {
+      "message": "请输入密码！若已输入则有可能是当前页面屏蔽各类表单存储填充！因此不能通过此网页存储用户信息，若想使用请在用户管理页面配置用户信息！"
+   },
+   "host_toolong": {
+      "message": "顶级域名过长！"
+   },
+   "username_toolong": {
+      "message": "用户名过长！"
+   },
+   "password_toolong": {
+      "message": "密码过长！"
+   },
+   "url_toolong": {
+      "message": "URL网址过长！"
+   },
+   "host_parse_failed": {
+      "message": "顶级域名解析失败！"
+   },
+   "username_exists": {
+      "message": "用户名已存在！"
+   },
+   "add_exc": {
+      "message": "是否永远不保存本网站用户信息？"
+   },
+   "add_failed": {
+      "message": "添加用户失败！"
+   },
+   "edit_failed": {
+      "message": "修改失败！"
+   },
+   "host_exists": {
+      "message": "该域名已存在！"
+   },
+   "host_has_data": {
+      "message": "数据库中包含该域名的用户信息！如果继续添加则会删除这些用户信息，是否要继续添加？"
+   },
+   "connection_failed": {
+      "message": "与U-key服务器连接失败！请确认服务器程序处于开启状态然后重新链接。"
+   },
+   "edit_page": {
+      "message": "用户编辑页"
+   },
+   "exc_page": {
+      "message": "域名例外列表"
+   },
+   "settings_page": {
+      "message": "扩展设置页"
+   },
+   "manage_page": {
+      "message": "用户管理页"
+   },
+   "edit": {
+      "message": "修改"
+   },
+   "add": {
+      "message": "添加"
+   },
+   "host_parse_noinput": {
+      "message": "请输入要例外的域名！"
+   },
+   "host_parse_advice": {
+      "message": "顶级域名格式不正确或无法解析！\n你是否想要输入：$host$？",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_host": {
+      "message": "删除域名"
+   },
+   "delete_host_data": {
+      "message": "删除$host$内所有用户信息",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete_host_data_confirm": {
+      "message": "此操作将删除$host$内所有用户信息，是否要继续？",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         }
+      }
+   },
+   "set_default": {
+      "message": "设为默认用户"
+   },
+   "edit_data": {
+      "message": "编辑信息"
+   },
+   "delete_data": {
+      "message": "删除信息"
+   },
+   "select_user_alert": {
+      "message": "请先选择一个用户！"
+   },
+   "delete_user_confirm": {
+      "message": "确认要删除此用户信息吗？\n\n域名：\t\t$host$\n用户名：\t$username$",
+      "placeholders": {
+         "host": {
+            "content": "$1"
+         },
+         "username": {
+            "content": "$2"
+         }
+      }
+   },
+   "url_span": {
+      "message": "网址："
+   },
+   "host_span": {
+      "message": "网站域："
+   },
+   "name_span": {
+      "message": "名称："
+   },
+   "username_span": {
+      "message": "用户名："
+   },
+   "password_span": {
+      "message": "密码："
+   },
+   "url_placeholder": {
+      "message": "请输入网址 例如：\"http://mail.163.com/\""
+   },
+   "host_placeholder": {
+      "message": "请输入顶级域名 例如：\"163.com\""
+   },
+   "name_value": {
+      "message": "暂不可用"
+   },
+   "save_value": {
+      "message": "保存"
+   },
+   "cancel_value": {
+      "message": "取消"
+   },
+   "returntodefault_value": {
+      "message": "恢复默认"
+   },
+   "exc_list": {
+      "message": "例外列表"
+   },
+   "addexc_placeholder": {
+      "message": "请输入要例外的顶级域名 例如：\"163.com\""
+   },
+   "close": {
+      "message": "关闭"
+   },
+   "addexc": {
+      "message": "添加例外"
+   },
+   "close_page": {
+      "message": "关闭页面"
+   },
+   "add_user": {
+      "message": "添加用户"
+   },
+   "set_exc": {
+      "message": "设置例外"
+   },
+   "adjust_settings": {
+      "message": "扩展设置"
+   },
+   "username_label": {
+      "message": "用户名"
+   },
+   "url_label": {
+      "message": "网址"
+   },
+   "settings_label": {
+      "message": "选项"
+   },
+   "general": {
+      "message": "通用"
+   },
+   "appearance": {
+      "message": "外观"
+   },
+   "search_keyword": {
+      "message": "搜索关键字"
+   },
+   "link_start": {
+      "message": "建立链接"
+   },
+   "link_cut": {
+      "message": "断开连接"
+   },
+   "select_host": {
+      "message": "选择域名"
+   },
+   "select_user": {
+      "message": "选择用户"
+   },
+   "quick_jump": {
+      "message": "快速跳转"
+   },
+   "auto_connect": {
+      "message": "浏览器启动时自动开启"
+   },
+   "auto_login": {
+      "message": "自动登录，距离上次"
+   },
+   "second": {
+      "message": "秒"
+   },
+   "context_menus": {
+      "message": "右键菜单"
+   },
+   "opacity": {
+      "message": "透明度："
+   },
+   "dialog": {
+      "message": "对话框"
+   },
+   "dialog_overlay": {
+      "message": "对话框背景遮罩层"
+   },
+   "manage_userdata": {
+      "message": "管理用户信息"
+   },
+   "managepage_opened": {
+      "message": "用户管理页面已经打开，请勿重复打开！"
+   },
+   "command_invalid": {
+      "message": "命令不可用"
+   },
+   "search_from_user": {
+      "message": "从用户信息中搜索"
+   },
+   "fingerprint_login": {
+      "message": "进行指纹验证"
+   },
+   "fingerprint_logout": {
+      "message": "注销指纹验证"
+   },
+   "fingerprint_verifying": {
+      "message": "正在进行指纹验证"
+   },
+   "fingerprint_verification_failed": {
+      "message": "指纹验证失败，是否要重新验证指纹？"
+   },
+   "no_fingerprint": {
+      "message": "指纹库为空，请先注册指纹"
+   },
+   "server_disconnect_failed": {
+      "message": "关闭时后台程序报错，建议检查后台程序及硬件"
+   },
+   "server_parse_failed": {
+      "message": "后台无法解析数据"
+   },
+   "host_in_exclist": {
+      "message": "域名处于例外列表中"
+   }
+}

@@ -1,0 +1,74 @@
+
+.nbtn {
+    background: white;
+    border: 1px solid #b0b0b0;
+    float: left;
+    text-align: center;
+    margin: 10px 4px;
+    cursor: pointer;
+    font-family: "open_sansregular", "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    word-wrap: break-word;
+}
+.nbtn:hover {
+    text-decoration: none;
+}
+.nbtn:active {
+    padding-top: 6px;
+    padding-bottom: 1px;
+    border-color: white;
+}
+.gbtn {
+    background-color: #c0c0c0;
+    color: #000 !important;
+    border-color: #939393;
+}
+.gbtn:focus, .gbtn:hover {
+    background-color: #939393;
+    border-color: #2b251a;
+}
+.gbtn:active {
+    background-color: #939393;
+    border-color: #939393;
+}
+.bbtn {
+    background-color: #27BAF4;
+    color: #FFF !important;
+    border-color: #4A899F;
+}
+.bbtn:focus, .bbtn:hover {
+    background-color: #469AE4;
+    border-color: #466AB4;
+    color: #FFF;
+}
+.bbtn:active {
+    background-color: #469AE4;
+    border-color: #469AE4;
+    color: #FFF;
+}
+.dbtn {
+    background-color: #555555;
+    color: #FFF !important;
+    border-color: #000;}
+.dbtn:focus, .dbtn:hover {
+    background-color: #2b251a;
+    border-color: #000;
+    color: #FFF;
+}
+.dbtn:active {
+    background-color: #2b251a;
+    border-color: #2b251a;
+    color: #FFF;
+}
+.btn_midi {
+    font-size: 15px;
+    width: 140px;
+    min-width: 140px;
+    line-height: 19px !important;
+    border-bottom-width: 2px;
+    padding: 4px 4px 3px 4px;
+    outline: 0;
+}

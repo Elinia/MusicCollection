@@ -1,0 +1,59 @@
+
+body {
+    -webkit-user-select: none;
+}
+#editFrame {
+    width: 700px;
+    font-size: 12px;
+    margin: 0px auto;
+}
+#editBody {
+    overflow: auto;
+    background: #e6e6e6;
+    padding: 15px 40px 15px 40px;
+}
+#editBody hr {
+    width: 614px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.editRow {
+    padding-bottom: 10px;
+    height: 49px;
+    width: 620px;
+}
+.leftColumn {
+    float: left;
+    width: 320px;
+}
+.rightColumn {
+    float: right;
+    width: 300px;
+}
+.info {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.stdInput {
+    width: 284px;
+    position: absolute;
+}
+#showpassIcon {
+    opacity: 0.5;
+    cursor: pointer;
+    margin: 3px 5px 3px 272px;
+    position: absolute;
+}
+#url {
+    width: 604px;
+    max-width: 604px;
+}
+.editButtonsSpan {
+    float: right;
+    padding-right: 20px;
+    position: relative;
+}

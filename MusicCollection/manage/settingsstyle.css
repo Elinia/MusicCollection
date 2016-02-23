@@ -1,0 +1,72 @@
+
+#settingsFrame {
+    width: 700px;
+    font-size: 12px;
+    margin: 0px auto;
+}
+#settingsBody {
+	overflow: auto;
+    background: #e6e6e6;
+    padding: 15px 40px 15px 40px;
+}
+fieldset {
+    border: 1px solid #ccc;
+}
+.settingsRow input[type="checkbox"] {
+    padding: 4px;
+    border: solid 1px #999;
+    outline: 0;
+    font: normal 1.0rem/100% Helvetica, Arial, Tahoma, sans-serif;
+    background-color: rgb(249,249,249);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(255,255,255,1)));
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 3px;
+    border-radius: 1px;
+}
+.settingsRow {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+.settingsRow span {
+    margin: 0px 3px;
+}
+.settingsRow input[type="text"] {
+    width: 15px;
+}
+.settingsRow input[type="range"] {
+    -webkit-appearance: none;
+    background-color: #999;
+    border-radius: 5px;
+    height: 5px;
+    outline: 0;
+    box-shadow: 0 -1px 1px #555 inset;
+}
+.settingsRow input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: default;
+    height: 20px;
+    width: 10px;
+    background: none repeat scroll 0 0 #BBB;
+    border-radius: 5px;
+    box-shadow: 0 -1px 1px #777 inset;
+}
+.settingsRow .rangeValue {
+    width: 30px;
+}
+#settingsBody hr {
+	margin-top: 15px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+.settingsButtonsSpan {
+	float: right;
+    padding-right: 20px;
+    position: relative;
+}
+.settingsReturnToDefaultButtonSpan {
+    float: left;
+    padding-left: 20px;
+    position: relative;
+}

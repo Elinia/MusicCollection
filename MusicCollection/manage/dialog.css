@@ -1,0 +1,51 @@
+﻿
+.dialog-overlay {
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width:100%;
+	background-color: #ADD8E6;
+}
+.dialog {
+	border-radius: 5px;
+	border: 1px solid #c3c3c3;
+}
+.dialog .bar {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	height: 65px;
+	border-bottom: 1px solid #c3c3c3;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #FFF;
+	cursor: move;
+}
+.dialog .bar .title {
+	font-family: "Microsoft YaHei";
+	color: #0057A9;
+	font-size: 40px;
+}
+.dialog .content {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+	background-color: #FFF;
+	overflow: auto;
+}
+.dialog input[type=text], input[type=password] {
+    padding: 4px;
+    border: solid 1px #999;
+    outline: 0;
+    background-color: #F9F9F9;
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 3px;
+    border-radius: 1px;
+}
+.dialog input[type=text]:hover, input[type=text]:focus, input[type=password]:hover, input[type=password]:focus {
+    border-color: #C9C9C9;
+    box-shadow: rgba(0, 198, 255, 0.40) 0px 0px 8px;
+}
+.dialog input[disabled] {   
+    border: 1px solid #DDD;   
+    background-color: #F5F5F5;   
+    color:#ACA899;   
+}

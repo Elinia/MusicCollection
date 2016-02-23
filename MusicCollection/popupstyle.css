@@ -1,0 +1,43 @@
+
+html {
+    overflow: hidden;
+}
+body {
+    margin: 0px;
+    background-color: #DDEEFF;
+}
+span {
+	padding: 5px;
+}
+li {
+	list-style-type: none;
+}
+#mainDiv {
+	width: 400px;
+	height: 500px;
+}
+#playlist {
+	padding-left: 10px;
+	height: 400px;
+}
+#playlist span {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.artistName {
+	width: 50px;
+}
+.split {
+	width: 10px;
+}
+.songTitle {
+	width: 280px;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.scroll {
+	overflow: auto;
+}
